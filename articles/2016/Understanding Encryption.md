@@ -7,6 +7,7 @@
 In primary school (US: elementary school) my best friend and I wanted to be able to create a secret language. We thought it would be cool to be able to write without others understanding. Like most nerdy kids we went off to the school library in seek for answers. We Looked through a small selection of books trying to find the ultimate solution, but ended up with nothing. Who were we kidding, it’s primary school. We braved up and talked to the librarian which resulted in giving us photocopies of the Aboriginal alphabet. It wasn’t as easy as we had hoped, leading us to move on to the next thing that entertained our young minds.
 
 ![Aboriginal characters](https://cdn-images-1.medium.com/max/1600/1*T8qXCdLYx_50y_PweonABA.jpeg)
+
 *We got something like this*
 
 **18 years later**, I decided to do some self study on binary, because surprisingly I was never taught it. Down the rabbit hole I went. From binary, came hexadecimals then ASCII hex codes till finally concluding at encoding. After learning this stuff, I realized — “Hey, couldn’t I use this to encrypt a message?”. Which reminded me of that time in back primary school.
@@ -49,7 +50,9 @@ So what we can see from the above is that there are 5 block of 24 bits, but the 
 
 Awesome! Now that we have padded the binary, we need to convert those padded values into something that we can later understand for when we later decrypt it. Because, those padded values are not part of the original binary.
 
+```
 6 [0110011101100101==]
+```
 
 Ok, now we need to get the decimal values from the binary per 6 bits.
 
@@ -66,6 +69,7 @@ TXkgU2VjcmV0IE1lc3NhZ2U==
 Great! Now, it’s already looking like an encryption, and it already is! But we want to make this much more secure. Let’s take a look at a very old encryption method — Caesar Cipher.
 
 ![Caesar Cipher example](https://cdn-images-1.medium.com/max/1600/1*U8yCesQlaBinX16PuXL_lQ.png)
+
 *Shifting the alphabet by 3*
 
 From the above diagram you can see that the alphabet has been shifted by 3. So when you write ‘abc’ and shift it by 3 it becomes ‘def’. Which will result in a different message. While it proved to be effective back in it’s time, it’s actually super simple to crack because the alphabet is only 26 characters long, so you only have to run the message through 26 shifts to find the result. But what if you used this cipher on each character of a message with different shifting amounts?
@@ -84,4 +88,4 @@ By no mean I would say this encryption is amazing, but it would be fun to see if
 KO<@:(@z:X)yFlulNoXkBoB><A@@>iK}BFM9>8#&7[50<A@9>sk}<mb>FNkMOO)pUv7{{%r}<jE><nB&AA}&7BZ::iK}Nj#[N8ByAaDVUv7*<ir}<mb><nB&8{WWW
 ```
 
-You can download/clone/fork the source and try it out yourself.
+You can download/clone/fork the [source](https://cdn-images-1.medium.com/max/1600/1*U8yCesQlaBinX16PuXL_lQ.png) and try it out yourself.
