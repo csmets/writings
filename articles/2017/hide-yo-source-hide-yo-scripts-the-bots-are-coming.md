@@ -1,6 +1,6 @@
 # Hide yo’ source, hide yo’ scripts. The bots are coming!
 
-We can all agree that don’t like bots coming in on our turf and digging up
+We can all agree that we don’t like bots coming in on our turf and digging up
 emails and other important goodies for us to shake our head about. However, we 
 still need those important search bots to come in and take relevant information
 so those "SEO Experts" can still keep our sites rank #1 on Google. So what can 
