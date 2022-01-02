@@ -1,0 +1,91 @@
+The tar-pit, it's a struggle the more you fight the tougher it is to get out. It
+speaks the same for software engineering. You cannot produce a baby in 1 month
+using 9 women. The more people you throw into a project doesn't mean that the
+project will be done faster. Any work that requires heavy thought, thinking, and
+communication, when more people are thrown in the longer the project will take.
+
+In the book it talks about creating smaller teams, rather than larger ones,
+which helps deliver better results that are also more timely. Each team is like
+a 'Surgical team', with every player being a key role for different parts of the
+project. Communication will be more effective and will be run like a well oiled
+machine.
+
+It is important to document as much as possible before starting on a project.
+Have time set aside for key architects to discuss the requirements for the
+product and have time defined. It's better to have something defined even though
+it may fail, rather than to not have something well defined at all. Vagueness is
+a killer, it reduce moral and purpose to the task at hand and will end up
+causing the project to take longer than it should.
+
+The architect should suggest and not dictate, as the builder has the inventive
+and creative responsibility. It is important to be open to suggestions of
+different ways of implementing, as long as it meets the objective.
+
+The second system an architect may build, might be the most dangerous one. As
+they will use the lessons they've learned in order to create a better system,
+this means the project may become a longer large scoped than it should have
+been. It is important to self reflect upon this to prevent this from happening.
+It may occur not just on the second, but it could happen on the third or forth
+too.
+
+Estimates are often wrong, they are guesses on what can be delivered from an
+optimistic point of view. When when factoring in a 'bad case scenarios' it's
+often still an optimistic measurement. To reduce the effect/damage of projects
+going way longer than it should, it's better to reduce the scope and time of a
+project. Milestones or stages of iteration are best to check if a project is
+staying on track or not. It can be weekly, fortnightly or monthly, but should
+not be longer. It can be a point where all stakeholders or key members can meet
+up and redefine the path and how progress is made. It keeps communication clear
+and will also limit the scope involved in a project.
+
+Tools plays an important role in being able to deliver faster results. It was
+found that engineers that were writing in high level languages were delivering
+faster results with less bugs as to those that were writing a low level
+languages (assembly). Building with tools that deliver faster and less error
+pone results will help reduce the time involved in projects. Also, rather than
+creating all tools from scratch, it's cheaper to use pre-existing tools that are
+well maintained, as it's cheaper to use what already existing than create
+something new and possibly error-prone.
+
+Having a clear document and design makes building the product easier and also
+results in creating less bugs. When things are unclear they won't tell you that
+they don't understand it, rather they will happily invent their way through the
+gaps and obsurities.
+
+When the first-line manager sees that the team is slipping behind, their is no
+need to notify the boss, as the team might be able make up for the loss time.
+Solving such problems is the job of hte first-line manager as the boss has
+enough on their plate with other worries. However, the boss requires two kinds
+of information, exceptions to plan that require action and a status picture of
+education. He needs to know the status for all the teams. Getting that status
+picture is hard. Sometimes is best to keep it under the rug to prevent the boss
+from taking action that would cause further harm to the deadline, rather first
+try and solve the issue with the small team, until it's know more of an issue
+that's greater than the team that can solve themselves.
+
+How to grow great designers?
+
+- Systematically identify top designers as early as possible. The best are
+  often not the most experienced.
+
+- Assign a career mentor to be responsible for the development of the prospect,
+  and keep a carefull career file.
+
+- Devise and maintain a career development plan for each prospect, including
+  carefully selected apprenticeships with top designers, episodes of advanced
+  formal education, and short courses, all interspersed with solo design and
+  technical leadership assignments.
+
+- Provide opportunities for growing designers to interact with and stimulate
+  each other.
+
+The coined term; 'No silver bullet', says that in software engineering that
+their is no silver bullet that can help achieve a measured and predictable
+deadline that can always be achieved for a project. Each project is different
+and each problem is different. Estimations will always be best guesses and will
+always be optimistic. Throwing people won't make the task done quicker but will
+result it in being slower. Appropriate tools, methodologies, communication can
+help make things easier and even quicker, but there is no special or magical
+thing that can solve all problems. It may be this way for a long time, and more
+research is required, but it still remains as something exciting to be
+discovered.

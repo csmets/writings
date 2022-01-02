@@ -1,0 +1,110 @@
+- Software complexity is incremental: you have to sweat the small stuff.
+It doesn't start out complex, it often grows into a complex system. It may start
+off well designed but in bad practice and not leaving it to thought it can
+quickly become a disaster that can cause lengthy development times.
+
+- Working code isn't enough.
+Even though you've patch the issue or have added a new feature which solves the
+problem, it doesn't mean that you've done the job correctly. Rather you should
+rethink the issue and let it sink in. 'Does solving this problem' or 'Adding
+this new feature, causes issues to the code later on?  Am I going against the
+design pattern just to make this work?'. We should always look towards reducing
+issues for our future self now and not later.
+
+- Make continual small investments to improve system design.
+Working on a change and you see that if you refactor this area of the code which
+will improve the design, should always be favoured. Take the time to invest, as
+it will make development become a smooth process and not be hindered by nasty
+issues that lurk to bite you.
+
+- Modules should be deep.
+A shallow module is something that serves as a small task that could just easily
+live within a larger module. Creating lots of shallow modules adds an extra
+layer of complexity and abstraction that is unneccessary for the cognitive load.
+Modules that serve a greater purpose will have greater purpose and meaning that
+would reduce the level of complexity as it would be better understood.
+
+- Interfaces should be designed to make the most common usage as simple as
+possible.
+Interfaces that have many options, or options that are vaguely understood adds
+complexity. Often when you design a module that has a clear designed interface
+the module is better built.
+
+- It's more important for a module to have a simple interface than a simple
+  implmentation.
+It's quite often now that you see a lot of shallow modules that has a simple
+interface but serves little purpose. Rather you should be more concerned about
+the simple interface rather than keeping the module small and light. A more
+complex module with a simple interface is more valuable then a simple
+implementation as the end-user will have a better understanding of the deeper
+module and how to use it, rather than the simple shallow one.
+
+- General-purpose modules are deeper
+General-purpose will require more investment and thought upfront, and will often
+be larger than a special-purpose. It's often the first thought to decide whether
+or not you should go general or special purpose. It good to note that you can
+always focus on making it special purpose if you cannot see it to be used
+elsewhere and refactor it later when it is required elsewhere.
+
+- Separate general-purpose and special-purpose code.
+Follow on from above.
+
+- Different layers should have different abstractions.
+When designing it should be noted that at every level of the design it should
+have different layers of abstractions. If the design has sharing interfaces or
+passing through, it serves little purpose and provides no use for the user.
+
+- Pull complexity downward.
+Rather than split the complexity around to different modules, rather put the
+complexities into one simple interface. However, don't take it too far!
+Understand the purpose and importance of the role, and not try to put all tasks
+of a feature into a single class that does more than one thing.
+
+- Define errors (and special cases) out of existence.
+The best way to handle exceptions is to design your APIs so that there are no
+exceptions to handle. Throwing exception is easy, handling them is hard. It is
+better to handle the error within the module rather than throwing an exception
+to the user. It is often that modules that have fewer exceptions are less
+complex then those that do.
+
+- Design it twice
+It's often that the first design you come up with isn't as good as the second or
+it helps confirm your first idea. It's always good to plan your designs first
+before bringing it to code as it will encourage you to think about the design
+rather than working towards a result.
+
+- Comments should describe things that are not obvious from the code.
+There is little purpose is writing comments that code can explain for
+themselves, it is why people don't like the idea of comments as you can
+understand by reading the code, however comments should not be written in
+this way. It should describe what the code is going to do from a descriptive
+purpose so that users can understand what the module will do without ever having
+to read through the code. It may also provide insight into what magic values do
+or why a const is declared to serve a purpose that's not well described in code.
+
+- Software should be designed for ease of reading, not east of writing.
+There are many tools now that provide cool tricks that enables the ease of
+writing code, but is not clear to read. Rather it is important to always
+consider that you won't be the only one working within this code, so always try
+to favour a way that's easier to read than easier to write. Reading code takes
+a lot more energy to understand when it's not your own from your own way of
+thinking.
+
+- The increments of software development should be abstractions, not features.
+When developing increments of features, it's leading to path of incompleteness
+to achieve an end result to the main feature. This doesn't invoke good design
+practice and may lead to lengthy development times as well as more complex code.
+Rather the increments should be focused on the abstractions so focus is
+maintained on good design choices.
+
+Other good notes
+
+- Tactical programmers
+These are programmers that focus on achieving the task. They will get the job
+done and may follow existing patterns or may see an issue but are not willing to
+push back to focus on refactoring as it's not a present priority.
+
+- Strategic programmers
+These are programmers that will work on tasks but will take a step back to
+reflect on it from a high level. If they see a better design or an issue with
+present design on a task, they'll spend the extra time to refactor it.
